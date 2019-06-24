@@ -1,0 +1,23 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "OMDb api key : 36a50db8 Bands in town: app_id=codingbootcamp Spotify",
+  "main": "bandsInTown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdaltonparsons/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdaltonparsons/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/cdaltonparsons/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
