@@ -23,11 +23,11 @@ inquirer
     },
     {
       type: "input",
-      message:
-        "And what song, band, or movie would you like me to look up? (Please no special characters, i.e. periods (.) or apostrophes ('))",
       when: function(userInput) {
         return userInput.action !== "do-what-it-says";
       },
+      message:
+        "And what song, band, or movie would you like me to look up? (Please no special characters, i.e. periods (.) or apostrophes ('))",
       name: "thing"
     }
   ])
